@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from "./carousel";
+import Timer from './timer';
 
 const Featured = () => {
     return (
@@ -11,6 +12,7 @@ const Featured = () => {
                     Eminem
                 </div>
             </div>
+            <Timer></Timer>
         </div>
     );
 };
